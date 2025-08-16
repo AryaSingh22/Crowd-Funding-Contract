@@ -30,7 +30,7 @@ A simple yet robust Ethereum crowdfunding smart contract with milestone-based fu
 - Name: `CrowdfundingKickstart`
 - Constructor params:
   - `string _title`
-  - `uint256 _goal` (wei)
+  - `uint256 _goal` ( wei )
   - `uint256 _durationSeconds`
   - `string[] _milestoneTitles`
   - `uint256[] _milestoneAmounts` (sum must be ≤ goal)
